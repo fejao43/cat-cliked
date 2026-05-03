@@ -13,7 +13,7 @@ def button_music():
 
 
 
-image = Image.open("/home/joaodev/Imagens/_ (4).jpeg")
+image = Image.open("/home/joaodev/Projetos/cat_cliked/picture/miaiauuu.jpeg")
 
 image_tk = ImageTk.PhotoImage(image)
 
