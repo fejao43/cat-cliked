@@ -4,7 +4,8 @@ import tkinter as tk
 import pygame
 
 window = tk.Tk()
-
+window.title("cat-cliked")
+window.geometry("500x500")
 pygame.mixer.init()
 
 def button_music():
@@ -17,7 +18,10 @@ image = Image.open("/home/joaodev/Projetos/cat_cliked/picture/miaiauuu.jpeg")
 
 image_tk = ImageTk.PhotoImage(image)
 
-cat = Button(window, image = image_tk,command=button_music)
+texto = Label(window, text="clique abaixo na foto na foto:")
+texto.pack()
+
+cat = Button(window,text="clique", image = image_tk,command=button_music)
 cat.pack()
 
 
