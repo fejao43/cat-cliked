@@ -21,7 +21,7 @@ image_tk = ImageTk.PhotoImage(image)
 texto = Label(window, text="clique abaixo na foto na foto:")
 texto.pack()
 
-cat = Button(window,text="clique", image = image_tk,command=button_music)
+cat = Button(window,image = image_tk,command=button_music)
 cat.pack()
 
 
