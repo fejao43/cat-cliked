@@ -9,12 +9,12 @@ window.geometry("500x500")
 pygame.mixer.init()
 
 def button_music():
-    pygame.mixer.music.load("/home/joaodev/Projetos/cat_cliked/song/miau.mp3")
+    pygame.mixer.music.load("song/miau.mp3")
     pygame.mixer.music.play()
 
 
 
-image = Image.open("/home/joaodev/Projetos/cat_cliked/picture/miaiauuu.jpeg")
+image = Image.open("picture/miaiauuu.jpeg")
 
 image_tk = ImageTk.PhotoImage(image)
 
